@@ -1,4 +1,4 @@
-package patterns.creational.singleton;
+package patterns.creational.singleton.kimys;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
