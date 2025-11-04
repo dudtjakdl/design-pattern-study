@@ -1,5 +1,8 @@
 package patterns.creational.factory_method.kimys;
 
+import patterns.creational.abstract_factory.kimys.Anchor;
+import patterns.creational.abstract_factory.kimys.Wheel;
+
 public class Ship {
 
     private String name;
@@ -7,6 +10,10 @@ public class Ship {
     private String color;
 
     private String logo;
+
+    private Anchor anchor;
+
+    private Wheel wheel;
 
     public String getName() {
         return name;
@@ -32,12 +39,30 @@ public class Ship {
         this.logo = logo;
     }
 
+    public Anchor getAnchor() {
+        return anchor;
+    }
+
+    public void setAnchor(Anchor anchor) {
+        this.anchor = anchor;
+    }
+
+    public Wheel getWheel() {
+        return wheel;
+    }
+
+    public void setWheel(Wheel wheel) {
+        this.wheel = wheel;
+    }
+
     @Override
     public String toString() {
         return "Ship{" +
                 "name='" + name + '\'' +
                 ", color='" + color + '\'' +
                 ", logo='" + logo + '\'' +
+                ", anchor=" + anchor +
+                ", wheel=" + wheel +
                 '}';
     }
 }
