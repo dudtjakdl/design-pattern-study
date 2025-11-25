@@ -12,8 +12,8 @@
 | 이름  | GitHub ID | 
 |-----|------------|
 | 김영서 | [@dudtjakdl](https://github.com/dudtjakdl) |
-| 김민호 |  |
-| 박창현 |  |
+| 김민호 | |
+| 박창현 |  [@harry4455](https://github.com/harry4455)|
 | 서성협 |  |
 | 안재홍 |  |
 | 이채은 |  |
